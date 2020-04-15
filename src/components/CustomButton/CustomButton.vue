@@ -1,5 +1,7 @@
 <template>
-  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">{{ msg }}</button>
+  <button
+    class="bg-blue-300 hover:bg-blue-500 text-white font-bold p-6 min-w-button rounded text-base"
+  >{{ msg }}</button>
 </template>
 
 <script>

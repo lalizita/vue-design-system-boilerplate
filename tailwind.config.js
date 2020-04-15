@@ -80,15 +80,11 @@ module.exports = {
         900: "#234e52",
       },
       blue: {
-        100: "#ebf8ff",
-        200: "#bee3f8",
-        300: "#90cdf4",
-        400: "#63b3ed",
-        500: "#4299e1",
-        600: "#3182ce",
-        700: "#2b6cb0",
-        800: "#2c5282",
-        900: "#2a4365",
+        100: "#70B8FF",
+        200: "#52A8FF",
+        300: "#3399FF",
+        400: "#2B82D9",
+        500: "#246BB3",
       },
       indigo: {
         100: "#ebf4ff",
@@ -253,7 +249,7 @@ module.exports = {
     fontSize: {
       xs: "0.75rem",
       sm: "0.875rem",
-      base: "1rem",
+      base: "1.16rem",
       lg: "1.125rem",
       xl: "1.25rem",
       "2xl": "1.5rem",
@@ -343,6 +339,7 @@ module.exports = {
     },
     minWidth: {
       "0": "0",
+      button: "264px",
       full: "100%",
     },
     objectPosition: {

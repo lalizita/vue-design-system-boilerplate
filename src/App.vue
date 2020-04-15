@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import CustomButton from "./components/CustomButton/CustomButton.vue";
+import CustomButton from "./components/CustomButton/CustomButton";
 
 export default {
   name: "App",

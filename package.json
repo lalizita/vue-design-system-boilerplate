@@ -2,11 +2,15 @@
   "name": "vue-design-system-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "main": "./dist/vue-design-system-boilerplate.common.js",
+  "module": "dist/./dist/vue-design-system-boilerplate.esm.js",
+  "unpkg": "dist/./dist/vue-design-system-boilerplate.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-bundle": "vue-cli-service build --target lib --name vue-design-system-boilerplate ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
