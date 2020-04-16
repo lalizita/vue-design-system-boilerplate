@@ -1,18 +1,20 @@
 <template>
   <button
     class="bg-blue-300 hover:bg-blue-500 text-white font-bold p-6 min-w-button rounded text-base"
-  >{{ msg }}</button>
+  >
+    {{ msg }}
+  </button>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: {
       type: String,
-      default: "Click me"
-    }
-  }
+      default: 'Click me',
+    },
+  },
 };
 </script>
 
