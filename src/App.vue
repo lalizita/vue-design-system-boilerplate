@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img
+      alt="Vue logo"
+      src="./assets/logo.png"
+    >
     <CustomButton msg="Click me" />
   </div>
 </template>
 
 <script>
-import CustomButton from "./components/CustomButton/CustomButton";
+import CustomButton from './components/CustomButton/CustomButton';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    CustomButton
-  }
+    CustomButton,
+  },
 };
 </script>
 

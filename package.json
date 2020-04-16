@@ -3,8 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "main": "./dist/vue-design-system-boilerplate.common.js",
-  "module": "dist/./dist/vue-design-system-boilerplate.esm.js",
-  "unpkg": "dist/./dist/vue-design-system-boilerplate.min.js",
+  "module": "./dist/vue-design-system-boilerplate.esm.js",
+  "unpkg": "./dist/vue-design-system-boilerplate.min.js",
+  "browser": {
+    "./sfc": "src/components/index.js"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

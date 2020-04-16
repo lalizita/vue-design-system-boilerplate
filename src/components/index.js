@@ -1,5 +1,5 @@
-import Vue from "vue";
-import CustomButton from "./CustomButton/CustomButton";
+import Vue from 'vue';
+import CustomButton from './CustomButton/CustomButton';
 
 const Components = {
   CustomButton,

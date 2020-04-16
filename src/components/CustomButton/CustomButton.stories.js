@@ -1,7 +1,7 @@
-import "../../assets/tailwind.css";
-import CustomButton from "./CustomButton.vue";
+import '../../assets/tailwind.css';
+import CustomButton from './CustomButton.vue';
 
-export default { title: "Custom Button" };
+export default { title: 'Custom Button' };
 
 export const withABigText = () => ({
   components: { CustomButton },
